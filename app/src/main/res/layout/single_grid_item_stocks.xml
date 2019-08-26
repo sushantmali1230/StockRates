@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="2sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12sp">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:id="@+id/stockNameText"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Stock Name ( Code )"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/stockTypeText"
+            android:text="Type"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

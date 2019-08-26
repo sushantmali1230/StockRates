@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280sp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Min Price"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/br_round_edittext"
+        android:padding="10sp"
+        android:textSize="15sp"
+        android:layout_marginTop="5sp"
+        android:inputType="numberDecimal"
+        android:id="@+id/minPriceEdit"
+        android:textColor="@android:color/black"
+        android:hint="Enter Min Price.."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5sp"
+        android:text="Max Price"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/br_round_edittext"
+        android:padding="10sp"
+        android:textSize="15sp"
+        android:layout_marginTop="5sp"
+        android:inputType="numberDecimal"
+        android:id="@+id/maxPriceEdit"
+        android:textColor="@android:color/black"
+        android:hint="Enter Max Price.."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="Save"
+        android:id="@+id/saveBtn"/>
+
+</LinearLayout>
